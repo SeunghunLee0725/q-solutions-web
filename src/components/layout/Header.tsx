@@ -56,11 +56,6 @@ export function Header({ locale }: HeaderProps) {
           : "bg-transparent"
       )}
     >
-      {/* Top banner */}
-      <div className="bg-primary-500 text-white text-center py-2 text-sm">
-        Clean air saves us - Q-Solutions help us
-      </div>
-
       <nav className="container-wide mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}

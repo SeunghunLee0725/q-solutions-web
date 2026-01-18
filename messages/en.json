@@ -105,7 +105,189 @@
       "description": "Real-time hazardous material detection and automatic warning systems to safely protect research environments",
       "features": ["Real-time hazard detection", "Chemical mixing risk alerts", "Personal exposure tracking", "Safety regulation compliance support"]
     },
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "detail": {
+      "backToSolutions": "Back to Solutions",
+      "keyFeatures": "Key Features",
+      "benefits": "Benefits",
+      "howItWorks": "How It Works",
+      "ctaTitle": "Request a Free Assessment Today",
+      "ctaDescription": "Our experts will visit your facility for a free air quality assessment and recommend customized solutions.",
+      "public": {
+        "heroTitle": "Public Facility Solutions",
+        "heroDescription": "Comprehensive management solution optimized for public facilities, from regulatory compliance to citizen assurance services.",
+        "benefits": {
+          "compliance": {
+            "title": "Complete Regulatory Compliance",
+            "description": "Automatically meet indoor air quality measurement requirements and receive instant alerts when standards are exceeded."
+          },
+          "transparency": {
+            "title": "Enhanced Public Trust",
+            "description": "Real-time air quality displays in lobbies and service areas increase citizen confidence and trust."
+          },
+          "efficiency": {
+            "title": "Improved Management Efficiency",
+            "description": "Manage multiple facilities from a single dashboard with automated periodic reports."
+          },
+          "cost": {
+            "title": "Reduced Operating Costs",
+            "description": "Save an average of 15% on energy costs through optimized ventilation control."
+          }
+        },
+        "features": {
+          "monitoring": {
+            "title": "Automatic Regulatory Monitoring",
+            "description": "24/7 automatic measurement of legally required parameters: PM10, PM2.5, CO2, formaldehyde, and more."
+          },
+          "display": {
+            "title": "Real-time Public Displays",
+            "description": "Large displays in public areas showing current air quality status in real-time."
+          },
+          "dashboard": {
+            "title": "Integrated Admin Dashboard",
+            "description": "Monitor multiple buildings and zones at a glance with instant alerts for any anomalies."
+          },
+          "report": {
+            "title": "Automated Reports",
+            "description": "Daily, weekly, and monthly reports are automatically generated to simplify management tasks."
+          }
+        },
+        "steps": {
+          "install": {
+            "title": "Sensor Installation",
+            "description": "High-precision AIoT sensors are installed at optimal locations based on space characteristics."
+          },
+          "collect": {
+            "title": "Data Collection",
+            "description": "24/7 real-time measurement of fine dust, CO2, temperature, humidity, and more."
+          },
+          "analyze": {
+            "title": "AI Analysis",
+            "description": "AI analyzes collected data to predict risks and recommend optimal ventilation timing."
+          },
+          "control": {
+            "title": "Automatic Control",
+            "description": "Integration with ventilation systems and air purifiers to automatically maintain optimal conditions."
+          }
+        }
+      },
+      "education": {
+        "heroTitle": "School & Education Solutions",
+        "heroDescription": "Classroom environment management for student health and focus, with parent assurance reports.",
+        "benefits": {
+          "health": {
+            "title": "Student Health Protection",
+            "description": "Early warnings during cold seasons prevent outbreaks and reduce sick days."
+          },
+          "focus": {
+            "title": "Improved Learning Focus",
+            "description": "Optimal CO2 levels prevent drowsiness and headaches, improving learning efficiency."
+          },
+          "trust": {
+            "title": "Parent Confidence",
+            "description": "Regular assurance reports provide parents transparent visibility into classroom conditions."
+          },
+          "integration": {
+            "title": "Education Board Integration",
+            "description": "Connect with education board management systems for efficient district-wide monitoring."
+          }
+        },
+        "features": {
+          "classroom": {
+            "title": "Per-Classroom Monitoring",
+            "description": "Individual monitoring of each classroom's air quality for immediate response to issues."
+          },
+          "warning": {
+            "title": "Cold Season Early Warning",
+            "description": "Alerts for poor ventilation or increased density help prevent infection spread."
+          },
+          "report": {
+            "title": "Parent Assurance Reports",
+            "description": "Weekly and monthly classroom environment reports give parents peace of mind."
+          },
+          "integration": {
+            "title": "Education Board Management",
+            "description": "District administrators can monitor all schools' air quality at a glance."
+          }
+        },
+        "steps": {
+          "install": {
+            "title": "Classroom Sensor Setup",
+            "description": "Compact AIoT sensors are installed in each classroom without disrupting classes."
+          },
+          "monitor": {
+            "title": "Real-time Monitoring",
+            "description": "Classroom air quality data is transmitted in real-time to the staff room and cloud."
+          },
+          "alert": {
+            "title": "Smart Alerts",
+            "description": "Teachers and administrators receive notifications when ventilation is needed."
+          },
+          "report": {
+            "title": "Report Generation",
+            "description": "Auto-generated reports provide transparency to parents and education boards."
+          }
+        }
+      },
+      "laboratory": {
+        "heroTitle": "Laboratory Safety Solutions",
+        "heroDescription": "Real-time hazardous material detection and automatic warning systems protect researchers with data.",
+        "benefits": {
+          "safety": {
+            "title": "Enhanced Researcher Safety",
+            "description": "Real-time detection of hazardous exposure with immediate warnings and evacuation guidance."
+          },
+          "compliance": {
+            "title": "Regulatory Compliance",
+            "description": "Support compliance with laboratory safety laws and chemical management regulations."
+          },
+          "tracking": {
+            "title": "Exposure Tracking",
+            "description": "Cumulative hazardous material exposure records for each researcher for health management."
+          },
+          "prevention": {
+            "title": "Accident Prevention",
+            "description": "Early detection of chemical mixing risks and ventilation issues prevents accidents."
+          }
+        },
+        "features": {
+          "detection": {
+            "title": "Real-time Hazard Detection",
+            "description": "Real-time measurement of hazardous gases including VOCs, formaldehyde, and ammonia."
+          },
+          "chemical": {
+            "title": "Chemical Mixing Alerts",
+            "description": "Immediate warnings when dangerous chemical combinations are detected, with response guidance."
+          },
+          "exposure": {
+            "title": "Personal Exposure Management",
+            "description": "Individual exposure history tracking with alerts when permissible limits are exceeded."
+          },
+          "regulation": {
+            "title": "Compliance Support",
+            "description": "Automatic recording and reports prepare you for safety inspections and audits."
+          }
+        },
+        "steps": {
+          "assess": {
+            "title": "Risk Assessment",
+            "description": "Analysis of chemicals used in the laboratory and space characteristics."
+          },
+          "install": {
+            "title": "Custom Sensor Setup",
+            "description": "Required hazardous material sensors are installed at optimal locations based on analysis."
+          },
+          "monitor": {
+            "title": "24/7 Surveillance",
+            "description": "Real-time monitoring of hazardous material concentrations with immediate alerts when exceeded."
+          },
+          "manage": {
+            "title": "Safety Management",
+            "description": "Systematic management of exposure records, reports, and response history."
+          }
+        }
+      }
+    }
   },
   "stats": {
     "badge": "Proven Results",
@@ -159,6 +341,142 @@
         "quote": "Both visitors and staff can now work in a comfortable environment.",
         "result": "35% Higher Satisfaction",
         "date": "Jan 2024"
+      }
+    },
+    "page": {
+      "heroTitle": "Case Studies",
+      "heroDescription": "Discover real results and experiences from organizations that have implemented Q-Solutions.",
+      "filterAll": "All",
+      "filterHealthcare": "Healthcare",
+      "filterEducation": "Education",
+      "filterPublic": "Public Facilities",
+      "filterLab": "Laboratories",
+      "metrics": "Key Metrics",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "results": "Results",
+      "testimonial": "Testimonial",
+      "details": {
+        "hospital": {
+          "id": "hospital-pediatrics",
+          "category": "Healthcare",
+          "title": "Changwon Hanmaeum Hospital Pediatrics",
+          "subtitle": "Building a Safe Infection-Free Environment for Pediatric Patients",
+          "location": "Changwon, Gyeongnam",
+          "size": "Entire Pediatric Ward (12 Rooms)",
+          "period": "March 2024 ~ Present",
+          "challenge": "Due to the nature of pediatrics, many patients had weak immune systems, making hospital-acquired infections a high risk. Secondary infections within the ward repeatedly occurred during seasonal outbreaks, and the existing ventilation system had limitations in air quality management.",
+          "solution": "Q-Solutions infection control system was deployed to monitor air quality in each room in real-time and calculate infection probability based on the Wells-Riley model. Automatic alerts and air purifier integration maintain optimal conditions when ventilation is insufficient.",
+          "results": ["90% reduction in total airborne bacteria", "75% reduction in hospital-acquired infections", "4.9/5 guardian satisfaction rating", "12% reduction in ventilation-related energy costs"],
+          "testimonial": "Hospital-acquired infections have noticeably decreased in the 6 months since installation. Parents especially appreciate being able to check air quality on monitors outside the rooms.",
+          "testimonialAuthor": "Kim, Head Nurse",
+          "metrics": [
+            { "label": "Bacteria Reduction", "value": "90%", "icon": "bacteria" },
+            { "label": "Infection Reduction", "value": "75%", "icon": "shield" },
+            { "label": "Satisfaction", "value": "4.9/5", "icon": "star" },
+            { "label": "Cost Savings", "value": "12%", "icon": "cost" }
+          ]
+        },
+        "university": {
+          "id": "university-lab",
+          "category": "Laboratories",
+          "title": "KAIST Chemical Engineering Labs",
+          "subtitle": "Real-time Monitoring System for Hazardous Chemicals",
+          "location": "Daejeon",
+          "size": "5 Research Labs",
+          "period": "January 2024 ~ Present",
+          "challenge": "Managing researcher exposure to hazardous materials was difficult in an environment using various organic solvents and chemicals. Health concerns were continuously raised due to inadequate ventilation during long experiments.",
+          "solution": "Dedicated sensors for VOCs, formaldehyde, and other hazardous materials were installed, with cumulative exposure tracking for each researcher. Immediate warnings are triggered at dangerous concentrations, with monitoring until ventilation is complete after experiments.",
+          "results": ["Zero hazardous material exposure incidents", "60% reduction in abnormal health checkup findings", "100% safety regulation compliance", "4.7/5 research environment satisfaction"],
+          "testimonial": "We can focus on research while still being aware of safety. The personal exposure reports are particularly helpful for health management.",
+          "testimonialAuthor": "Park, Researcher",
+          "metrics": [
+            { "label": "Exposure Incidents", "value": "0", "icon": "alert" },
+            { "label": "Health Issues", "value": "-60%", "icon": "health" },
+            { "label": "Compliance", "value": "100%", "icon": "check" },
+            { "label": "Satisfaction", "value": "4.7/5", "icon": "star" }
+          ]
+        },
+        "school": {
+          "id": "elementary-school",
+          "category": "Education",
+          "title": "Seoul Gangnam Elementary School",
+          "subtitle": "Student Health and Learning Focus Enhancement Project",
+          "location": "Gangnam-gu, Seoul",
+          "size": "All Grades, 24 Classrooms",
+          "period": "September 2023 ~ Present",
+          "challenge": "Colds and flu spread every winter, causing frequent class-wide absences. Students also experienced drowsiness and reduced focus during afternoon classes, with ventilation timing often being missed.",
+          "solution": "Air quality sensors were installed in each classroom to measure CO2 levels and humidity in real-time. Automatic ventilation alerts are sent to teachers, and weekly classroom environment reports are provided to parents.",
+          "results": ["40% reduction in winter sick days", "Improved afternoon class focus", "4.8/5 parent satisfaction rating", "Selected as Education Board best practice"],
+          "testimonial": "Thanks to ventilation alerts, children stay alert and focused during class. Parents also feel reassured when they see the reports.",
+          "testimonialAuthor": "Lee, Homeroom Teacher",
+          "metrics": [
+            { "label": "Sick Days", "value": "-40%", "icon": "health" },
+            { "label": "Focus", "value": "Improved", "icon": "focus" },
+            { "label": "Satisfaction", "value": "4.8/5", "icon": "star" },
+            { "label": "Best Practice", "value": "Selected", "icon": "award" }
+          ]
+        },
+        "government": {
+          "id": "government-office",
+          "category": "Public Facilities",
+          "title": "Gyeongnam Provincial Office Service Center",
+          "subtitle": "Creating a Pleasant Space for Citizens and Staff",
+          "location": "Changwon, Gyeongnam",
+          "size": "Service Center and Waiting Area (500㎡)",
+          "period": "January 2024 ~ Present",
+          "challenge": "Air quality management was difficult in a service center used by over 300 people daily. CO2 levels spiked during peak hours, and frequent fine dust infiltration caused discomfort for both visitors and staff.",
+          "solution": "Real-time air quality monitoring was installed with large public displays showing current status. Automatic integration with ventilation systems and air purifiers maintains optimal conditions.",
+          "results": ["Zero air quality standard violations", "35% improvement in visitor satisfaction", "50% reduction in staff fatigue complaints", "15% energy cost savings"],
+          "testimonial": "With air quality visible at a glance, visitor complaints have greatly decreased. Staff also report feeling less tired in the afternoon.",
+          "testimonialAuthor": "Choi, Service Manager",
+          "metrics": [
+            { "label": "Violations", "value": "0", "icon": "check" },
+            { "label": "Satisfaction", "value": "+35%", "icon": "star" },
+            { "label": "Fatigue", "value": "-50%", "icon": "health" },
+            { "label": "Cost Savings", "value": "15%", "icon": "cost" }
+          ]
+        },
+        "fitness": {
+          "id": "fitness-center",
+          "category": "Public Facilities",
+          "title": "Gimhae National Sports Center",
+          "subtitle": "Sports Facility Air Quality Optimization Project",
+          "location": "Gimhae, Gyeongnam",
+          "size": "Gym, Pool, Multi-purpose Gymnasium",
+          "period": "May 2024 ~ Present",
+          "challenge": "Due to high breathing rates and perspiration in exercise facilities, air quality deteriorated quickly. Managing CO2 levels and humidity in the enclosed gym was a major challenge.",
+          "solution": "Custom sensors were deployed in each exercise area with automatic ventilation based on occupancy and exercise intensity. Real-time air quality displays at entrances increase user confidence.",
+          "results": ["42% improvement in user satisfaction", "90% reduction in air quality complaints", "25% increase in facility usage", "18% reduction in HVAC costs"],
+          "testimonial": "Many users say they no longer feel suffocated while exercising. Our renewal rate has also increased.",
+          "testimonialAuthor": "Jung, Center Director",
+          "metrics": [
+            { "label": "Satisfaction", "value": "+42%", "icon": "star" },
+            { "label": "Complaints", "value": "-90%", "icon": "check" },
+            { "label": "Usage", "value": "+25%", "icon": "users" },
+            { "label": "Cost Savings", "value": "18%", "icon": "cost" }
+          ]
+        },
+        "nursing": {
+          "id": "nursing-home",
+          "category": "Healthcare",
+          "title": "Busan Haeundae Nursing Hospital",
+          "subtitle": "Infection Prevention System for Elderly Patients",
+          "location": "Haeundae-gu, Busan",
+          "size": "3 Nursing Floors (80 Beds)",
+          "period": "February 2024 ~ Present",
+          "challenge": "Many elderly patients with underlying conditions were highly vulnerable to infections. After COVID-19, visitor restrictions and hospital infection management became even more important.",
+          "solution": "Real-time infection risk analysis by ward with automatic ventilation and air purification adjustment based on risk levels. Air quality is automatically optimized before and after visiting hours.",
+          "results": ["80% reduction in hospital-acquired infections", "Greatly improved guardian confidence", "Zero infections after visitation resumed", "Zero staff infections"],
+          "testimonial": "We can protect our elderly patients' health while safely allowing family visits. It's a great relief.",
+          "testimonialAuthor": "Kim, Hospital Director",
+          "metrics": [
+            { "label": "Infection Reduction", "value": "80%", "icon": "shield" },
+            { "label": "Post-Visit Infections", "value": "0", "icon": "check" },
+            { "label": "Staff Infections", "value": "0", "icon": "users" },
+            { "label": "Confidence", "value": "Improved", "icon": "star" }
+          ]
+        }
       }
     }
   },

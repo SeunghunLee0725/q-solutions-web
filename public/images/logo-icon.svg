@@ -1,19 +1,30 @@
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="qGradientIcon" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1E88C7"/>
-      <stop offset="100%" style="stop-color:#2B7A3D"/>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D9488"/>
+      <stop offset="50%" stop-color="#2B7A3D"/>
+      <stop offset="100%" stop-color="#16A34A"/>
     </linearGradient>
-    <linearGradient id="sGradientIcon" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#2B7A3D"/>
-      <stop offset="100%" style="stop-color:#4CAF50"/>
+    <linearGradient id="accentGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0891B2"/>
+      <stop offset="100%" stop-color="#0D9488"/>
     </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-opacity="0.12"/>
+    </filter>
   </defs>
 
-  <!-- Q letter - circular part -->
-  <path d="M24 4C12.954 4 4 12.954 4 24C4 35.046 12.954 44 24 44C29.142 44 33.837 42.115 37.35 38.95L41.65 43.25C42.55 44.15 44 44.15 44.9 43.25C45.8 42.35 45.8 40.9 44.9 40L40.55 35.65C43.75 32.15 45.7 27.45 45.7 22.25C45.7 11.954 37.046 4 26 4H24Z" fill="url(#qGradientIcon)"/>
-  <path d="M24 10C16.268 10 10 16.268 10 24C10 31.732 16.268 38 24 38C27.68 38 31.04 36.63 33.6 34.35L30.15 30.9C28.58 32.25 26.5 33.1 24.2 33.1C19.03 33.1 14.85 28.92 14.85 23.75C14.85 18.58 19.03 14.4 24.2 14.4C29.37 14.4 33.55 18.58 33.55 23.75C33.55 25.4 33.1 26.95 32.35 28.3L35.85 31.8C38.15 29.25 39.55 25.9 39.55 22.2C39.55 14.77 33.63 10 26.2 10H24Z" fill="white"/>
+  <g filter="url(#softShadow)">
+    <!-- Outer ring -->
+    <circle cx="22" cy="22" r="17" stroke="url(#brandGradient)" stroke-width="5" fill="none"/>
 
-  <!-- S overlapping the Q -->
-  <path d="M30 16C30 16 37 17.5 37 23C37 27 34 29 31 30.2C28 31.4 25 33.2 25 36.5C25 40.2 28.5 43 33 43" stroke="url(#sGradientIcon)" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Inner circle -->
+    <circle cx="22" cy="22" r="9" fill="white"/>
+
+    <!-- Q tail / Magnifying glass handle -->
+    <path d="M32 32L42 42" stroke="url(#accentGradient)" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Handle end accent -->
+    <circle cx="42" cy="42" r="3.5" fill="url(#accentGradient)"/>
+  </g>
 </svg>
