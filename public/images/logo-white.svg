@@ -1,0 +1,21 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Q Icon - White version for dark backgrounds -->
+  <defs>
+    <linearGradient id="qGradientWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/>
+      <stop offset="100%" style="stop-color:#81C784"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Q letter - circular part -->
+  <path d="M24 6C13.507 6 5 14.507 5 25C5 35.493 13.507 44 24 44C28.825 44 33.234 42.258 36.6 39.4L40.5 43.3C41.281 44.081 42.547 44.081 43.328 43.3C44.109 42.519 44.109 41.253 43.328 40.472L39.4 36.544C42.275 33.175 44 28.753 44 24C44 13.507 35.493 6 25 6H24Z" fill="url(#qGradientWhite)"/>
+  <path d="M24 12C16.82 12 11 17.82 11 25C11 32.18 16.82 38 24 38C27.335 38 30.385 36.745 32.7 34.7L29.5 31.5C28.05 32.75 26.115 33.5 24 33.5C19.306 33.5 15.5 29.694 15.5 25C15.5 20.306 19.306 16.5 24 16.5C28.694 16.5 32.5 20.306 32.5 25C32.5 26.5 32.1 27.9 31.4 29.1L34.65 32.35C36.7 30.05 38 27.05 38 24C38 17.373 32.627 12 26 12H24Z" fill="#1A1A1A"/>
+
+  <!-- S overlapping the Q -->
+  <path d="M32 18C32 18 38 19 38 24C38 27.5 35.5 29 33 30C30.5 31 28 32.5 28 35C28 38 31 40 35 40" stroke="#81C784" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Text: Solutions -->
+  <text x="52" y="33" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="600" fill="white">
+    <tspan fill="#64B5F6">Q</tspan><tspan fill="white">-Solutions</tspan>
+  </text>
+</svg>

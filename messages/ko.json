@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "title": "Q-Solutions | 실내 공기질 관리 솔루션",
+    "description": "AIoT 센서 기반 실시간 공기질 모니터링과 과학적 감염 위험 분석으로 안전한 실내 환경을 만듭니다."
+  },
+  "nav": {
+    "home": "홈",
+    "solutions": "솔루션",
+    "publicFacility": "공공기관",
+    "education": "학교·교육기관",
+    "laboratory": "연구실",
+    "caseStudies": "도입 사례",
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "getDemo": "무료 진단 신청"
+  },
+  "hero": {
+    "badge": "AIoT 기반 환경 헬스케어",
+    "title": "당신의 공간,",
+    "titleHighlight": "지금 안전한가요?",
+    "description": "보이지 않는 공기 중 위험을 실시간으로 분석하고, 과학적인 데이터로 안전한 실내 환경을 만들어 드립니다.",
+    "cta": {
+      "primary": "무료 진단 신청",
+      "secondary": "솔루션 알아보기"
+    },
+    "stats": {
+      "reduction": "세균 감소율",
+      "monitoring": "실시간 모니터링",
+      "clients": "도입 기관"
+    },
+    "videoPlaceholder": "소개 영상 준비 중"
+  },
+  "problem": {
+    "badge": "왜 실내 공기질이 중요한가요?",
+    "title": "우리가 하루의 90%를 보내는 실내,",
+    "titleHighlight": "그 공기는 안전할까요?",
+    "description": "미세먼지, 이산화탄소, 부유세균... 눈에 보이지 않는 위험이 건강을 위협합니다.",
+    "items": {
+      "infection": {
+        "title": "공기 중 감염 위험",
+        "description": "밀폐된 공간에서 호흡기 감염병은 빠르게 전파됩니다. 환기 부족 시 감염 위험이 최대 10배까지 증가합니다.",
+        "stat": "10배",
+        "statLabel": "감염 위험 증가"
+      },
+      "productivity": {
+        "title": "집중력·생산성 저하",
+        "description": "CO2 농도가 1,000ppm을 넘으면 졸음과 두통이 발생하고, 인지 능력이 최대 50% 감소합니다.",
+        "stat": "50%",
+        "statLabel": "인지능력 감소"
+      },
+      "health": {
+        "title": "만성 건강 문제",
+        "description": "장기간 오염된 공기에 노출되면 호흡기 질환, 알레르기, 심혈관 질환 위험이 높아집니다.",
+        "stat": "40%",
+        "statLabel": "질환 위험 증가"
+      }
+    }
+  },
+  "strengths": {
+    "badge": "Q-Solutions만의 차별점",
+    "title": "과학적 분석, 실시간 대응,",
+    "titleHighlight": "자동화된 제어",
+    "items": {
+      "scientific": {
+        "title": "SCIENTIFIC",
+        "subtitle": "과학적 분석",
+        "description": "Wells-Riley 모델 기반 감염 확률 계산과 공간별 맞춤 위험도 분석"
+      },
+      "realtime": {
+        "title": "REAL-TIME",
+        "subtitle": "실시간 모니터링",
+        "description": "24시간 연속 측정으로 공기질 변화를 즉시 감지하고 알림"
+      },
+      "automated": {
+        "title": "AUTOMATED",
+        "subtitle": "자동 제어",
+        "description": "AI 기반 환기·공조 시스템 자동 연동으로 최적 환경 유지"
+      },
+      "proven": {
+        "title": "PROVEN",
+        "subtitle": "검증된 효과",
+        "description": "도입 기관 평균 90% 세균 감소, 에너지 15% 절감 실적"
+      }
+    }
+  },
+  "solutions": {
+    "badge": "맞춤형 솔루션",
+    "title": "각 공간에 최적화된",
+    "titleHighlight": "전문 솔루션",
+    "public": {
+      "title": "공공기관",
+      "subtitle": "시민이 머무는 공간, 과학적으로 관리합니다",
+      "description": "실내공기질 관리법 대응부터 시민 안심 서비스까지, 공공시설에 최적화된 통합 관리 솔루션",
+      "features": ["법적 기준 자동 모니터링", "실시간 공기질 공개 디스플레이", "관리자 통합 대시보드", "정기 보고서 자동 생성"]
+    },
+    "education": {
+      "title": "학교·교육기관",
+      "subtitle": "우리 아이가 공부하는 교실, 안전한가요?",
+      "description": "학생들의 건강과 집중력을 위한 교실 환경 관리, 학부모 안심 리포트 제공",
+      "features": ["교실별 실시간 모니터링", "감기 유행 시즌 사전 경고", "학부모 안심 리포트", "교육청 통합 관리 연동"]
+    },
+    "laboratory": {
+      "title": "연구실",
+      "subtitle": "연구원의 안전, 데이터로 지킵니다",
+      "description": "유해물질 실시간 감지와 자동 경고 시스템으로 연구 환경을 안전하게 보호",
+      "features": ["유해물질 실시간 감지", "화학물질 혼합 위험 경고", "개인 노출량 누적 관리", "안전관리 규정 준수 지원"]
+    },
+    "learnMore": "자세히 알아보기"
+  },
+  "stats": {
+    "badge": "검증된 성과",
+    "title": "숫자로 증명하는",
+    "titleHighlight": "Q-Solutions의 효과",
+    "items": {
+      "bacteria": {
+        "value": "90%",
+        "label": "평균 세균 감소율",
+        "description": "도입 기관 총부유세균 농도"
+      },
+      "energy": {
+        "value": "15%",
+        "label": "에너지 비용 절감",
+        "description": "최적 환기로 냉난방비 절약"
+      },
+      "satisfaction": {
+        "value": "4.8/5",
+        "label": "고객 만족도",
+        "description": "도입 기관 평가 평점"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "시스템 가동률",
+        "description": "24시간 안정적 모니터링"
+      }
+    }
+  },
+  "cases": {
+    "badge": "도입 사례",
+    "title": "이미 많은 기관이",
+    "titleHighlight": "효과를 경험했습니다",
+    "items": {
+      "hospital": {
+        "category": "의료기관",
+        "title": "창원 대형병원 소아과",
+        "quote": "감염제어 시스템 설치 후 총부유세균 농도가 10분의 1로 감소했습니다.",
+        "result": "세균 90% 감소",
+        "date": "2024.06"
+      },
+      "school": {
+        "category": "교육기관",
+        "title": "서울 초등학교",
+        "quote": "환기 타이밍 알림 덕분에 겨울철 감기 유행이 눈에 띄게 줄었습니다.",
+        "result": "병결 40% 감소",
+        "date": "2024.03"
+      },
+      "office": {
+        "category": "공공기관",
+        "title": "경남 공공청사",
+        "quote": "민원인과 직원 모두 쾌적한 환경에서 업무를 볼 수 있게 되었습니다.",
+        "result": "만족도 35% 향상",
+        "date": "2024.01"
+      }
+    }
+  },
+  "cta": {
+    "title": "지금 바로 시작하세요",
+    "description": "무료 공기질 진단으로 우리 공간의 현재 상태를 확인해 보세요. 전문가가 맞춤 솔루션을 제안해 드립니다.",
+    "button": "무료 진단 신청하기",
+    "contact": "또는 직접 문의하기"
+  },
+  "footer": {
+    "company": {
+      "name": "Q-Solutions",
+      "description": "AIoT 센서 기반 실내 공기질 관리 전문 기업",
+      "tagline": "Clean air saves us"
+    },
+    "links": {
+      "solutions": "솔루션",
+      "caseStudies": "도입 사례",
+      "about": "회사 소개",
+      "contact": "문의하기"
+    },
+    "contact": {
+      "title": "연락처",
+      "phone": "070-4191-0516",
+      "email": "cto@q-solutions.net",
+      "headquarters": "본사: 경남 창원시 성산구 창원대로 797 한국재료연구원 6동 4층",
+      "branch": "지사: 서울 송파구 송파대로 167 B동 B620호"
+    },
+    "copyright": "© 2025 Q-Solutions. All rights reserved."
+  },
+  "contact": {
+    "title": "문의하기",
+    "description": "무료 진단 신청이나 서비스 문의를 남겨주세요. 빠른 시간 내에 답변 드리겠습니다.",
+    "form": {
+      "name": "이름",
+      "namePlaceholder": "홍길동",
+      "email": "이메일",
+      "emailPlaceholder": "example@company.com",
+      "phone": "연락처",
+      "phonePlaceholder": "010-1234-5678",
+      "organization": "기관/회사명",
+      "organizationPlaceholder": "소속 기관 또는 회사명",
+      "type": "문의 유형",
+      "typeOptions": {
+        "demo": "무료 진단 신청",
+        "inquiry": "서비스 문의",
+        "partnership": "제휴/협력 문의",
+        "other": "기타"
+      },
+      "message": "문의 내용",
+      "messagePlaceholder": "문의하실 내용을 자세히 적어주세요.",
+      "submit": "문의 보내기",
+      "submitting": "전송 중...",
+      "success": "문의가 성공적으로 전송되었습니다. 빠른 시간 내에 답변 드리겠습니다.",
+      "error": "전송 중 오류가 발생했습니다. 다시 시도해 주세요."
+    },
+    "kakao": {
+      "title": "카카오톡 채널",
+      "description": "실시간 상담을 원하시면 카카오톡 채널을 이용해 주세요.",
+      "button": "카카오톡 상담하기",
+      "comingSoon": "카카오톡 채널 준비 중"
+    },
+    "info": {
+      "title": "직접 연락하기",
+      "phone": {
+        "label": "전화",
+        "value": "070-4191-0516"
+      },
+      "email": {
+        "label": "이메일",
+        "value": "cto@q-solutions.net"
+      },
+      "hours": {
+        "label": "운영 시간",
+        "value": "평일 09:00 - 18:00"
+      }
+    }
+  },
+  "common": {
+    "learnMore": "자세히 보기",
+    "getStarted": "시작하기",
+    "backToHome": "홈으로 돌아가기"
+  }
+}

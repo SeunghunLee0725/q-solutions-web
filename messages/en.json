@@ -1,0 +1,245 @@
+{
+  "metadata": {
+    "title": "Q-Solutions | Indoor Air Quality Management",
+    "description": "Real-time air quality monitoring with AIoT sensors and scientific infection risk analysis for safer indoor environments."
+  },
+  "nav": {
+    "home": "Home",
+    "solutions": "Solutions",
+    "publicFacility": "Public Facilities",
+    "education": "Schools & Education",
+    "laboratory": "Laboratories",
+    "caseStudies": "Case Studies",
+    "about": "About Us",
+    "contact": "Contact",
+    "getDemo": "Free Assessment"
+  },
+  "hero": {
+    "badge": "AIoT-Based Environmental Healthcare",
+    "title": "Is Your Space",
+    "titleHighlight": "Safe Right Now?",
+    "description": "We analyze invisible airborne risks in real-time and create safe indoor environments with scientific data.",
+    "cta": {
+      "primary": "Request Free Assessment",
+      "secondary": "Explore Solutions"
+    },
+    "stats": {
+      "reduction": "Bacteria Reduction",
+      "monitoring": "Real-time Monitoring",
+      "clients": "Client Organizations"
+    },
+    "videoPlaceholder": "Video Coming Soon"
+  },
+  "problem": {
+    "badge": "Why Indoor Air Quality Matters",
+    "title": "We spend 90% of our day indoors.",
+    "titleHighlight": "Is that air safe?",
+    "description": "Fine dust, CO2, airborne bacteria... invisible threats are affecting your health.",
+    "items": {
+      "infection": {
+        "title": "Airborne Infection Risk",
+        "description": "Respiratory diseases spread rapidly in enclosed spaces. Infection risk increases up to 10 times with poor ventilation.",
+        "stat": "10x",
+        "statLabel": "Infection Risk Increase"
+      },
+      "productivity": {
+        "title": "Reduced Focus & Productivity",
+        "description": "When CO2 levels exceed 1,000ppm, drowsiness and headaches occur, and cognitive ability can drop by up to 50%.",
+        "stat": "50%",
+        "statLabel": "Cognitive Decline"
+      },
+      "health": {
+        "title": "Chronic Health Issues",
+        "description": "Long-term exposure to polluted air increases the risk of respiratory diseases, allergies, and cardiovascular conditions.",
+        "stat": "40%",
+        "statLabel": "Disease Risk Increase"
+      }
+    }
+  },
+  "strengths": {
+    "badge": "What Makes Q-Solutions Different",
+    "title": "Scientific Analysis, Real-time Response,",
+    "titleHighlight": "Automated Control",
+    "items": {
+      "scientific": {
+        "title": "SCIENTIFIC",
+        "subtitle": "Scientific Analysis",
+        "description": "Wells-Riley model-based infection probability calculation and space-specific risk analysis"
+      },
+      "realtime": {
+        "title": "REAL-TIME",
+        "subtitle": "Real-time Monitoring",
+        "description": "24/7 continuous measurement to instantly detect air quality changes and send alerts"
+      },
+      "automated": {
+        "title": "AUTOMATED",
+        "subtitle": "Automated Control",
+        "description": "AI-based automatic ventilation and HVAC system integration for optimal environment"
+      },
+      "proven": {
+        "title": "PROVEN",
+        "subtitle": "Proven Results",
+        "description": "Average 90% bacteria reduction and 15% energy savings at client facilities"
+      }
+    }
+  },
+  "solutions": {
+    "badge": "Tailored Solutions",
+    "title": "Specialized Solutions",
+    "titleHighlight": "For Every Space",
+    "public": {
+      "title": "Public Facilities",
+      "subtitle": "Scientific management for spaces where citizens gather",
+      "description": "Comprehensive management solution optimized for public facilities, from regulatory compliance to citizen assurance services",
+      "features": ["Automatic regulatory compliance monitoring", "Real-time air quality public displays", "Integrated administrator dashboard", "Automated periodic reports"]
+    },
+    "education": {
+      "title": "Schools & Education",
+      "subtitle": "Is the classroom where your child studies safe?",
+      "description": "Classroom environment management for student health and focus, with parent assurance reports",
+      "features": ["Real-time classroom monitoring", "Cold season early warning system", "Parent assurance reports", "Education board integration"]
+    },
+    "laboratory": {
+      "title": "Laboratories",
+      "subtitle": "Protecting researchers with data",
+      "description": "Real-time hazardous material detection and automatic warning systems to safely protect research environments",
+      "features": ["Real-time hazard detection", "Chemical mixing risk alerts", "Personal exposure tracking", "Safety regulation compliance support"]
+    },
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "badge": "Proven Results",
+    "title": "Numbers That Prove",
+    "titleHighlight": "Q-Solutions' Effectiveness",
+    "items": {
+      "bacteria": {
+        "value": "90%",
+        "label": "Average Bacteria Reduction",
+        "description": "Total airborne bacteria at client facilities"
+      },
+      "energy": {
+        "value": "15%",
+        "label": "Energy Cost Savings",
+        "description": "HVAC cost reduction through optimal ventilation"
+      },
+      "satisfaction": {
+        "value": "4.8/5",
+        "label": "Customer Satisfaction",
+        "description": "Average rating from client organizations"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "System Uptime",
+        "description": "24/7 reliable monitoring"
+      }
+    }
+  },
+  "cases": {
+    "badge": "Case Studies",
+    "title": "Many Organizations Have",
+    "titleHighlight": "Already Experienced Results",
+    "items": {
+      "hospital": {
+        "category": "Healthcare",
+        "title": "Changwon Hospital Pediatrics",
+        "quote": "After installing the infection control system, total airborne bacteria decreased to 1/10.",
+        "result": "90% Bacteria Reduction",
+        "date": "Jun 2024"
+      },
+      "school": {
+        "category": "Education",
+        "title": "Seoul Elementary School",
+        "quote": "Thanks to ventilation timing alerts, winter cold outbreaks noticeably decreased.",
+        "result": "40% Less Sick Days",
+        "date": "Mar 2024"
+      },
+      "office": {
+        "category": "Public Facility",
+        "title": "Gyeongnam Government Office",
+        "quote": "Both visitors and staff can now work in a comfortable environment.",
+        "result": "35% Higher Satisfaction",
+        "date": "Jan 2024"
+      }
+    }
+  },
+  "cta": {
+    "title": "Get Started Today",
+    "description": "Check the current state of your space with a free air quality assessment. Our experts will recommend customized solutions.",
+    "button": "Request Free Assessment",
+    "contact": "Or contact us directly"
+  },
+  "footer": {
+    "company": {
+      "name": "Q-Solutions",
+      "description": "Indoor air quality management experts with AIoT sensor technology",
+      "tagline": "Clean air saves us"
+    },
+    "links": {
+      "solutions": "Solutions",
+      "caseStudies": "Case Studies",
+      "about": "About Us",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "phone": "+82-70-4191-0516",
+      "email": "cto@q-solutions.net",
+      "headquarters": "HQ: 797 Changwon-daero, Seongsan-gu, Changwon, Korea",
+      "branch": "Branch: 167 Songpa-daero, Songpa-gu, Seoul, Korea"
+    },
+    "copyright": "© 2025 Q-Solutions. All rights reserved."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Leave us a message for a free assessment or service inquiry. We'll get back to you shortly.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email",
+      "emailPlaceholder": "example@company.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+82-10-1234-5678",
+      "organization": "Organization",
+      "organizationPlaceholder": "Your organization or company name",
+      "type": "Inquiry Type",
+      "typeOptions": {
+        "demo": "Free Assessment Request",
+        "inquiry": "Service Inquiry",
+        "partnership": "Partnership Inquiry",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Please describe your inquiry in detail.",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Your message has been sent successfully. We'll get back to you soon.",
+      "error": "An error occurred. Please try again."
+    },
+    "kakao": {
+      "title": "KakaoTalk Channel",
+      "description": "For real-time consultation, please use our KakaoTalk channel.",
+      "button": "Chat on KakaoTalk",
+      "comingSoon": "KakaoTalk channel coming soon"
+    },
+    "info": {
+      "title": "Direct Contact",
+      "phone": {
+        "label": "Phone",
+        "value": "+82-70-4191-0516"
+      },
+      "email": {
+        "label": "Email",
+        "value": "cto@q-solutions.net"
+      },
+      "hours": {
+        "label": "Business Hours",
+        "value": "Mon-Fri 09:00 - 18:00 KST"
+      }
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "backToHome": "Back to Home"
+  }
+}
