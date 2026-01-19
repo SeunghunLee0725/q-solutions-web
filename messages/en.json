@@ -329,24 +329,31 @@
     "items": {
       "hospital": {
         "category": "Healthcare",
-        "title": "Changwon Hospital Pediatrics",
+        "title": "Changwon Hanmaeum Hospital Pediatrics",
         "quote": "After installing the infection control system, total airborne bacteria decreased to 1/10.",
         "result": "90% Bacteria Reduction",
-        "date": "Jun 2024"
+        "date": "Jun 2023"
       },
-      "school": {
-        "category": "Education",
-        "title": "Seoul Elementary School",
-        "quote": "Thanks to ventilation timing alerts, winter cold outbreaks noticeably decreased.",
-        "result": "40% Less Sick Days",
-        "date": "Mar 2024"
-      },
-      "office": {
+      "government": {
         "category": "Public Facility",
-        "title": "Gyeongnam Government Office",
+        "title": "Gyeongnam Provincial Office Service Center",
         "quote": "Both visitors and staff can now work in a comfortable environment.",
         "result": "35% Higher Satisfaction",
-        "date": "Jan 2024"
+        "date": "Oct 2022"
+      },
+      "nursing": {
+        "category": "Healthcare",
+        "title": "Yesan County Nursing Home",
+        "quote": "COVID-19 spread suppression was confirmed, giving peace of mind to both residents and staff.",
+        "result": "80% Infection Reduction",
+        "date": "Mar 2024"
+      },
+      "lab": {
+        "category": "Laboratories",
+        "title": "Kyungpook National University Animal Lab",
+        "quote": "Real-time hazardous material monitoring has greatly improved researcher safety and lab environment.",
+        "result": "Zero Exposure Incidents",
+        "date": "Jun 2024"
       }
     },
     "page": {
@@ -369,58 +376,18 @@
           "title": "Changwon Hanmaeum Hospital Pediatrics",
           "subtitle": "Building a Safe Infection-Free Environment for Pediatric Patients",
           "location": "Changwon, Gyeongnam",
-          "size": "Entire Pediatric Ward (12 Rooms)",
-          "period": "March 2024 ~ Present",
+          "size": "Pediatrics Lobby",
+          "period": "June 2023 ~ Present",
           "challenge": "Due to the nature of pediatrics, many patients had weak immune systems, making hospital-acquired infections a high risk. Secondary infections within the ward repeatedly occurred during seasonal outbreaks, and the existing ventilation system had limitations in air quality management.",
-          "solution": "Q-Solutions infection control system was deployed to monitor air quality in each room in real-time and calculate infection probability based on the Wells-Riley model. Automatic alerts and air purifier integration maintain optimal conditions when ventilation is insufficient.",
+          "solution": "Q-Solutions infection control system was deployed to monitor air quality in the pediatrics lobby in real-time and calculate infection probability based on the Wells-Riley model. Automatic alerts and air purifier integration maintain optimal conditions when ventilation is insufficient.",
           "results": ["90% reduction in total airborne bacteria", "75% reduction in hospital-acquired infections", "4.9/5 guardian satisfaction rating", "12% reduction in ventilation-related energy costs"],
-          "testimonial": "Hospital-acquired infections have noticeably decreased in the 6 months since installation. Parents especially appreciate being able to check air quality on monitors outside the rooms.",
+          "testimonial": "Hospital-acquired infections have noticeably decreased since installation. Parents especially appreciate being able to check air quality on the lobby monitor.",
           "testimonialAuthor": "Kim, Head Nurse",
           "metrics": [
             { "label": "Bacteria Reduction", "value": "90%", "icon": "bacteria" },
             { "label": "Infection Reduction", "value": "75%", "icon": "shield" },
             { "label": "Satisfaction", "value": "4.9/5", "icon": "star" },
             { "label": "Cost Savings", "value": "12%", "icon": "cost" }
-          ]
-        },
-        "university": {
-          "id": "university-lab",
-          "category": "Laboratories",
-          "title": "KAIST Chemical Engineering Labs",
-          "subtitle": "Real-time Monitoring System for Hazardous Chemicals",
-          "location": "Daejeon",
-          "size": "5 Research Labs",
-          "period": "January 2024 ~ Present",
-          "challenge": "Managing researcher exposure to hazardous materials was difficult in an environment using various organic solvents and chemicals. Health concerns were continuously raised due to inadequate ventilation during long experiments.",
-          "solution": "Dedicated sensors for VOCs, formaldehyde, and other hazardous materials were installed, with cumulative exposure tracking for each researcher. Immediate warnings are triggered at dangerous concentrations, with monitoring until ventilation is complete after experiments.",
-          "results": ["Zero hazardous material exposure incidents", "60% reduction in abnormal health checkup findings", "100% safety regulation compliance", "4.7/5 research environment satisfaction"],
-          "testimonial": "We can focus on research while still being aware of safety. The personal exposure reports are particularly helpful for health management.",
-          "testimonialAuthor": "Park, Researcher",
-          "metrics": [
-            { "label": "Exposure Incidents", "value": "0", "icon": "alert" },
-            { "label": "Health Issues", "value": "-60%", "icon": "health" },
-            { "label": "Compliance", "value": "100%", "icon": "check" },
-            { "label": "Satisfaction", "value": "4.7/5", "icon": "star" }
-          ]
-        },
-        "school": {
-          "id": "elementary-school",
-          "category": "Education",
-          "title": "Seoul Gangnam Elementary School",
-          "subtitle": "Student Health and Learning Focus Enhancement Project",
-          "location": "Gangnam-gu, Seoul",
-          "size": "All Grades, 24 Classrooms",
-          "period": "September 2023 ~ Present",
-          "challenge": "Colds and flu spread every winter, causing frequent class-wide absences. Students also experienced drowsiness and reduced focus during afternoon classes, with ventilation timing often being missed.",
-          "solution": "Air quality sensors were installed in each classroom to measure CO2 levels and humidity in real-time. Automatic ventilation alerts are sent to teachers, and weekly classroom environment reports are provided to parents.",
-          "results": ["40% reduction in winter sick days", "Improved afternoon class focus", "4.8/5 parent satisfaction rating", "Selected as Education Board best practice"],
-          "testimonial": "Thanks to ventilation alerts, children stay alert and focused during class. Parents also feel reassured when they see the reports.",
-          "testimonialAuthor": "Lee, Homeroom Teacher",
-          "metrics": [
-            { "label": "Sick Days", "value": "-40%", "icon": "health" },
-            { "label": "Focus", "value": "Improved", "icon": "focus" },
-            { "label": "Satisfaction", "value": "4.8/5", "icon": "star" },
-            { "label": "Best Practice", "value": "Selected", "icon": "award" }
           ]
         },
         "government": {
@@ -430,7 +397,7 @@
           "subtitle": "Creating a Pleasant Space for Citizens and Staff",
           "location": "Changwon, Gyeongnam",
           "size": "Service Center and Waiting Area (500㎡)",
-          "period": "January 2024 ~ Present",
+          "period": "October 2022 ~ Present",
           "challenge": "Air quality management was difficult in a service center used by over 300 people daily. CO2 levels spiked during peak hours, and frequent fine dust infiltration caused discomfort for both visitors and staff.",
           "solution": "Real-time air quality monitoring was installed with large public displays showing current status. Automatic integration with ventilation systems and air purifiers maintains optimal conditions.",
           "results": ["Zero air quality standard violations", "35% improvement in visitor satisfaction", "50% reduction in staff fatigue complaints", "15% energy cost savings"],
@@ -443,44 +410,44 @@
             { "label": "Cost Savings", "value": "15%", "icon": "cost" }
           ]
         },
-        "fitness": {
-          "id": "fitness-center",
-          "category": "Public Facilities",
-          "title": "Gimhae National Sports Center",
-          "subtitle": "Sports Facility Air Quality Optimization Project",
-          "location": "Gimhae, Gyeongnam",
-          "size": "Gym, Pool, Multi-purpose Gymnasium",
-          "period": "May 2024 ~ Present",
-          "challenge": "Due to high breathing rates and perspiration in exercise facilities, air quality deteriorated quickly. Managing CO2 levels and humidity in the enclosed gym was a major challenge.",
-          "solution": "Custom sensors were deployed in each exercise area with automatic ventilation based on occupancy and exercise intensity. Real-time air quality displays at entrances increase user confidence.",
-          "results": ["42% improvement in user satisfaction", "90% reduction in air quality complaints", "25% increase in facility usage", "18% reduction in HVAC costs"],
-          "testimonial": "Many users say they no longer feel suffocated while exercising. Our renewal rate has also increased.",
-          "testimonialAuthor": "Jung, Center Director",
-          "metrics": [
-            { "label": "Satisfaction", "value": "+42%", "icon": "star" },
-            { "label": "Complaints", "value": "-90%", "icon": "check" },
-            { "label": "Usage", "value": "+25%", "icon": "users" },
-            { "label": "Cost Savings", "value": "18%", "icon": "cost" }
-          ]
-        },
         "nursing": {
           "id": "nursing-home",
           "category": "Healthcare",
-          "title": "Busan Haeundae Nursing Hospital",
-          "subtitle": "Infection Prevention System for Elderly Patients",
-          "location": "Haeundae-gu, Busan",
-          "size": "3 Nursing Floors (80 Beds)",
-          "period": "February 2024 ~ Present",
-          "challenge": "Many elderly patients with underlying conditions were highly vulnerable to infections. After COVID-19, visitor restrictions and hospital infection management became even more important.",
-          "solution": "Real-time infection risk analysis by ward with automatic ventilation and air purification adjustment based on risk levels. Air quality is automatically optimized before and after visiting hours.",
-          "results": ["80% reduction in hospital-acquired infections", "Greatly improved guardian confidence", "Zero infections after visitation resumed", "Zero staff infections"],
-          "testimonial": "We can protect our elderly patients' health while safely allowing family visits. It's a great relief.",
-          "testimonialAuthor": "Kim, Hospital Director",
+          "title": "Yesan County Nursing Home",
+          "subtitle": "Infection Prevention System for Elderly Residents",
+          "location": "Yesan, Chungnam",
+          "size": "Entire Facility (60 Beds)",
+          "period": "March 2024 ~ Present",
+          "challenge": "Many elderly residents with underlying conditions were highly vulnerable to infections. COVID-19 testbed operation aimed to verify spread suppression effectiveness.",
+          "solution": "Real-time infection risk analysis by ward with automatic ventilation and air purification adjustment based on risk levels. AI epidemic prevention HVAC platform POC confirmed COVID-19 spread suppression.",
+          "results": ["COVID-19 spread suppression confirmed", "80% reduction in facility infections", "Greatly improved guardian confidence", "Zero staff infections"],
+          "testimonial": "We can protect our elderly residents' health while safely allowing family visits. It's a great relief.",
+          "testimonialAuthor": "Kim, Director",
           "metrics": [
             { "label": "Infection Reduction", "value": "80%", "icon": "shield" },
-            { "label": "Post-Visit Infections", "value": "0", "icon": "check" },
+            { "label": "Spread Suppression", "value": "Confirmed", "icon": "check" },
             { "label": "Staff Infections", "value": "0", "icon": "users" },
             { "label": "Confidence", "value": "Improved", "icon": "star" }
+          ]
+        },
+        "lab": {
+          "id": "animal-lab",
+          "category": "Laboratories",
+          "title": "Kyungpook National University Medical School Animal Lab",
+          "subtitle": "Real-time Monitoring System for Hazardous Materials",
+          "location": "Daegu",
+          "size": "3 Animal Labs",
+          "period": "June 2024 ~ Present",
+          "challenge": "Managing researcher exposure to hazardous materials like ammonia and formaldehyde was difficult in animal lab environments. Health concerns were continuously raised due to inadequate ventilation during long experiments.",
+          "solution": "Dedicated sensors for VOCs, ammonia, formaldehyde, and other hazardous materials were installed, with cumulative exposure tracking for each researcher. Immediate warnings are triggered at dangerous concentrations, with monitoring until ventilation is complete after experiments.",
+          "results": ["Zero hazardous material exposure incidents", "60% reduction in abnormal health checkup findings", "100% safety regulation compliance", "4.7/5 research environment satisfaction"],
+          "testimonial": "We can focus on research while still being aware of safety. The personal exposure reports are particularly helpful for health management.",
+          "testimonialAuthor": "Park, Researcher",
+          "metrics": [
+            { "label": "Exposure Incidents", "value": "0", "icon": "alert" },
+            { "label": "Health Issues", "value": "-60%", "icon": "health" },
+            { "label": "Compliance", "value": "100%", "icon": "check" },
+            { "label": "Satisfaction", "value": "4.7/5", "icon": "star" }
           ]
         }
       }

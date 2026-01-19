@@ -30,15 +30,13 @@ import { cn } from "@/lib/utils";
 
 type CategoryFilter = "all" | "healthcare" | "education" | "public" | "lab";
 
-const caseKeys = ["hospital", "university", "school", "government", "fitness", "nursing"] as const;
+const caseKeys = ["hospital", "government", "nursing", "lab"] as const;
 
 const caseImages: Record<string, string> = {
   hospital: "/images/cases/hanmaeum-hospital.jpg",
-  university: "/images/cases/university.jpg",
-  school: "/images/cases/school.jpg",
   government: "/images/cases/government.jpg",
-  fitness: "/images/cases/fitness.jpg",
   nursing: "/images/cases/nursing.jpg",
+  lab: "/images/cases/university.jpg",
 };
 
 const categoryIcons: Record<string, React.ElementType> = {
