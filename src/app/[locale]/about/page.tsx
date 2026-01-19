@@ -323,7 +323,7 @@ export default async function AboutPage({
               <MapPin className="w-5 h-5 text-primary-500 mt-1" />
               <div>
                 <p className="font-medium text-gray-900">
-                  {isKorean ? "서울 지사" : "Seoul Branch"}
+                  {isKorean ? "회의공간" : "Meeting Space"}
                 </p>
                 <p className="text-gray-600 text-sm">
                   {isKorean
