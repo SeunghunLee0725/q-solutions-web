@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { Bug, Brain, HeartPulse } from "lucide-react";
+import { Bug, Brain, HeartPulse, ExternalLink } from "lucide-react";
 
 export function ProblemSection() {
   const t = useTranslations("problem");
@@ -83,7 +83,7 @@ export function ProblemSection() {
                   </p>
 
                   <div className="pt-4 border-t border-gray-100">
-                    <div className="flex items-baseline gap-2">
+                    <div className="flex items-baseline gap-2 mb-2">
                       <span
                         className={`text-3xl font-bold ${problem.color.replace(
                           "text-",
@@ -96,6 +96,15 @@ export function ProblemSection() {
                         {t(`items.${problem.key}.statLabel`)}
                       </span>
                     </div>
+                    <a
+                      href={t(`items.${problem.key}.sourceUrl`)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs text-gray-400 hover:text-primary-500 transition-colors"
+                    >
+                      <span>출처: {t(`items.${problem.key}.source`)}</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
                   </div>
                 </CardContent>
               </Card>

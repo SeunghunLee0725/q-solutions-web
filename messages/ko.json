@@ -40,19 +40,25 @@
         "title": "공기 중 감염 위험",
         "description": "밀폐된 공간에서 호흡기 감염병은 빠르게 전파됩니다. 환기 부족 시 감염 위험이 최대 10배까지 증가합니다.",
         "stat": "10배",
-        "statLabel": "감염 위험 증가"
+        "statLabel": "감염 위험 증가",
+        "source": "Science Journal (2024)",
+        "sourceUrl": "https://www.science.org/doi/10.1126/science.adp2241"
       },
       "productivity": {
         "title": "집중력·생산성 저하",
-        "description": "CO2 농도가 1,000ppm을 넘으면 졸음과 두통이 발생하고, 인지 능력이 최대 50% 감소합니다.",
+        "description": "CO2 농도가 1,400ppm 이상에서 인지 능력이 최대 50% 감소합니다. 1,000ppm에서도 의사결정 능력 저하가 관찰됩니다.",
         "stat": "50%",
-        "statLabel": "인지능력 감소"
+        "statLabel": "인지능력 감소",
+        "source": "Harvard T.H. Chan School of Public Health & Berkeley Lab",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4892924/"
       },
       "health": {
         "title": "만성 건강 문제",
-        "description": "장기간 오염된 공기에 노출되면 호흡기 질환, 알레르기, 심혈관 질환 위험이 높아집니다.",
-        "stat": "40%",
-        "statLabel": "질환 위험 증가"
+        "description": "장기간 오염된 공기에 노출되면 COPD, 심혈관 질환, 뇌졸중 위험이 높아집니다. 전 세계 연간 430만 명이 실내공기오염으로 조기 사망합니다.",
+        "stat": "430만",
+        "statLabel": "연간 조기 사망",
+        "source": "WHO (World Health Organization)",
+        "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health"
       }
     }
   },

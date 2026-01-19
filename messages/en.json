@@ -40,19 +40,25 @@
         "title": "Airborne Infection Risk",
         "description": "Respiratory diseases spread rapidly in enclosed spaces. Infection risk increases up to 10 times with poor ventilation.",
         "stat": "10x",
-        "statLabel": "Infection Risk Increase"
+        "statLabel": "Infection Risk Increase",
+        "source": "Science Journal (2024)",
+        "sourceUrl": "https://www.science.org/doi/10.1126/science.adp2241"
       },
       "productivity": {
         "title": "Reduced Focus & Productivity",
-        "description": "When CO2 levels exceed 1,000ppm, drowsiness and headaches occur, and cognitive ability can drop by up to 50%.",
+        "description": "Cognitive ability drops by up to 50% at CO2 levels of 1,400ppm+. Decision-making impairment observed even at 1,000ppm.",
         "stat": "50%",
-        "statLabel": "Cognitive Decline"
+        "statLabel": "Cognitive Decline",
+        "source": "Harvard T.H. Chan School of Public Health & Berkeley Lab",
+        "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4892924/"
       },
       "health": {
         "title": "Chronic Health Issues",
-        "description": "Long-term exposure to polluted air increases the risk of respiratory diseases, allergies, and cardiovascular conditions.",
-        "stat": "40%",
-        "statLabel": "Disease Risk Increase"
+        "description": "Long-term exposure increases risk of COPD, cardiovascular disease, and stroke. 4.3 million people die prematurely from household air pollution annually.",
+        "stat": "4.3M",
+        "statLabel": "Annual Premature Deaths",
+        "source": "WHO (World Health Organization)",
+        "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health"
       }
     }
   },
