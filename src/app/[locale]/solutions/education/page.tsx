@@ -168,7 +168,11 @@ export default function EducationSolutionPage() {
               {t("detail.howItWorks")}
             </h2>
           </motion.div>
-          <div className="grid md:grid-cols-4 gap-6">
+          <div className="relative grid md:grid-cols-4 gap-6">
+            {/* Connection lines */}
+            <div className="hidden md:block absolute top-8 left-0 right-0 h-0.5 mx-auto" style={{ width: 'calc(100% - 25%)' }}>
+              <div className="h-full bg-gray-700 mx-[8%]" />
+            </div>
             {steps.map((step, index) => (
               <motion.div
                 key={step}
@@ -176,7 +180,7 @@ export default function EducationSolutionPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="relative"
+                className="relative z-10"
               >
                 <div className="flex flex-col items-center text-center">
                   <div className="w-16 h-16 rounded-full bg-secondary-500 flex items-center justify-center text-2xl font-bold mb-4">
@@ -189,9 +193,6 @@ export default function EducationSolutionPage() {
                     {t(`detail.education.steps.${step}.description`)}
                   </p>
                 </div>
-                {index < steps.length - 1 && (
-                  <div className="hidden md:block absolute top-8 left-[60%] w-[80%] h-0.5 bg-gray-700" />
-                )}
               </motion.div>
             ))}
           </div>
