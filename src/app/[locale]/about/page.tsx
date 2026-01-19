@@ -26,6 +26,7 @@ export default async function AboutPage({
     {
       date: "2025. 12",
       title: "KST SEED 투자 유치",
+      link: "https://www.etnews.com/20260107000098",
     },
     {
       date: "2025. 05",
@@ -287,9 +288,20 @@ export default async function AboutPage({
                   </div>
                   <div className="flex-shrink-0 w-3 h-3 rounded-full bg-primary-500 mt-1.5 relative z-10 group-hover:scale-125 transition-transform" />
                   <div className="flex-1 pb-4">
-                    <h3 className="font-semibold text-gray-900 text-sm md:text-base">
-                      {milestone.title}
-                    </h3>
+                    {milestone.link ? (
+                      <a
+                        href={milestone.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-gray-900 text-sm md:text-base hover:text-primary-600 transition-colors"
+                      >
+                        {milestone.title}
+                      </a>
+                    ) : (
+                      <h3 className="font-semibold text-gray-900 text-sm md:text-base">
+                        {milestone.title}
+                      </h3>
+                    )}
                     {milestone.description && (
                       <p className="text-gray-500 text-xs md:text-sm mt-0.5">{milestone.description}</p>
                     )}
