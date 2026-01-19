@@ -32,6 +32,15 @@ type CategoryFilter = "all" | "healthcare" | "education" | "public" | "lab";
 
 const caseKeys = ["hospital", "university", "school", "government", "fitness", "nursing"] as const;
 
+const caseImages: Record<string, string> = {
+  hospital: "/images/cases/hanmaeum-hospital.jpg",
+  university: "/images/cases/university.jpg",
+  school: "/images/cases/school.jpg",
+  government: "/images/cases/government.jpg",
+  fitness: "/images/cases/fitness.jpg",
+  nursing: "/images/cases/nursing.jpg",
+};
+
 const categoryIcons: Record<string, React.ElementType> = {
   "의료기관": Stethoscope,
   "Healthcare": Stethoscope,
@@ -178,9 +187,12 @@ export default function CaseStudiesPage() {
                     className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 cursor-pointer"
                     onClick={() => setSelectedCase(key)}
                   >
-                    {/* Card Header with Gradient */}
-                    <div className={cn("relative h-48 bg-gradient-to-br p-6", colorClass)}>
-                      <div className="absolute inset-0 bg-black/20" />
+                    {/* Card Header with Background Image */}
+                    <div
+                      className="relative h-48 p-6 bg-cover bg-center"
+                      style={{ backgroundImage: `url(${caseImages[key]})` }}
+                    >
+                      <div className={cn("absolute inset-0 bg-gradient-to-br opacity-80", colorClass)} />
                       <div className="relative z-10 flex flex-col h-full">
                         <div className="flex items-center gap-2 mb-auto">
                           <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-white text-xs font-medium">
@@ -279,38 +291,44 @@ export default function CaseStudiesPage() {
                 return (
                   <>
                     {/* Modal Header */}
-                    <div className={cn("relative p-8 bg-gradient-to-br text-white", colorClass)}>
+                    <div
+                      className="relative p-8 text-white bg-cover bg-center"
+                      style={{ backgroundImage: `url(${caseImages[selectedCase]})` }}
+                    >
+                      <div className={cn("absolute inset-0 bg-gradient-to-br opacity-85", colorClass)} />
                       <button
                         onClick={() => setSelectedCase(null)}
-                        className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center hover:bg-white/30 transition-colors"
+                        className="absolute top-4 right-4 z-20 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center hover:bg-white/30 transition-colors"
                       >
                         <span className="text-2xl leading-none">&times;</span>
                       </button>
 
-                      <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-sm font-medium mb-4">
-                        <Icon className="w-4 h-4" />
-                        {category}
-                      </span>
-                      <h2 className="text-3xl font-bold mb-2">
-                        {t(`page.details.${selectedCase}.title`)}
-                      </h2>
-                      <p className="text-white/90 text-lg">
-                        {t(`page.details.${selectedCase}.subtitle`)}
-                      </p>
+                      <div className="relative z-10">
+                        <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-sm font-medium mb-4">
+                          <Icon className="w-4 h-4" />
+                          {category}
+                        </span>
+                        <h2 className="text-3xl font-bold mb-2">
+                          {t(`page.details.${selectedCase}.title`)}
+                        </h2>
+                        <p className="text-white/90 text-lg">
+                          {t(`page.details.${selectedCase}.subtitle`)}
+                        </p>
 
-                      <div className="flex flex-wrap gap-6 mt-6 text-sm">
-                        <span className="flex items-center gap-2">
-                          <MapPin className="w-4 h-4" />
-                          {t(`page.details.${selectedCase}.location`)}
-                        </span>
-                        <span className="flex items-center gap-2">
-                          <Maximize2 className="w-4 h-4" />
-                          {t(`page.details.${selectedCase}.size`)}
-                        </span>
-                        <span className="flex items-center gap-2">
-                          <Calendar className="w-4 h-4" />
-                          {t(`page.details.${selectedCase}.period`)}
-                        </span>
+                        <div className="flex flex-wrap gap-6 mt-6 text-sm">
+                          <span className="flex items-center gap-2">
+                            <MapPin className="w-4 h-4" />
+                            {t(`page.details.${selectedCase}.location`)}
+                          </span>
+                          <span className="flex items-center gap-2">
+                            <Maximize2 className="w-4 h-4" />
+                            {t(`page.details.${selectedCase}.size`)}
+                          </span>
+                          <span className="flex items-center gap-2">
+                            <Calendar className="w-4 h-4" />
+                            {t(`page.details.${selectedCase}.period`)}
+                          </span>
+                        </div>
                       </div>
                     </div>
 
