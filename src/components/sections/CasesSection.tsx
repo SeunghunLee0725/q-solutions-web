@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-import { Quote, Building2, GraduationCap, Landmark } from "lucide-react";
+import { Quote, Building2, Landmark, Heart, FlaskConical } from "lucide-react";
 
 export function CasesSection() {
   const t = useTranslations("cases");
@@ -17,16 +17,22 @@ export function CasesSection() {
       iconColor: "text-red-500",
     },
     {
-      key: "school",
-      icon: GraduationCap,
-      iconBg: "bg-green-50",
-      iconColor: "text-green-500",
-    },
-    {
-      key: "office",
+      key: "government",
       icon: Landmark,
       iconBg: "bg-blue-50",
       iconColor: "text-blue-500",
+    },
+    {
+      key: "nursing",
+      icon: Heart,
+      iconBg: "bg-pink-50",
+      iconColor: "text-pink-500",
+    },
+    {
+      key: "lab",
+      icon: FlaskConical,
+      iconBg: "bg-purple-50",
+      iconColor: "text-purple-500",
     },
   ];
 
@@ -54,7 +60,7 @@ export function CasesSection() {
         </motion.div>
 
         {/* Cases Grid */}
-        <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {cases.map((caseItem, index) => (
             <motion.div
               key={caseItem.key}
