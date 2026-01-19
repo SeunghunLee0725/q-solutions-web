@@ -44,10 +44,10 @@ export function ProblemSection() {
           <Badge variant="outline" className="mb-4">
             {t("badge")}
           </Badge>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-relaxed">
             {t("title")}
             <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-500">
+            <span className="block mt-3 text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-500">
               {t("titleHighlight")}
             </span>
           </h2>
