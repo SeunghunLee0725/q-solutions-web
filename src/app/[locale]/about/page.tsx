@@ -24,32 +24,127 @@ export default async function AboutPage({
 
   const milestones = [
     {
-      year: "2023",
-      title: isKorean ? "Q-Solutions 설립" : "Q-Solutions Founded",
-      description: isKorean
-        ? "AIoT 기반 실내공기질 관리 전문 기업으로 출범"
-        : "Launched as AIoT-based indoor air quality management company",
+      date: "2025. 12",
+      title: "KST SEED 투자 유치",
     },
     {
-      year: "2024",
-      title: isKorean ? "Wells-Riley 모델 기반 솔루션 개발" : "Wells-Riley Model Solution",
-      description: isKorean
-        ? "과학적 감염 위험 분석 시스템 상용화"
-        : "Commercialized scientific infection risk analysis system",
+      date: "2025. 05",
+      title: "예비창업패키지 과제 선정",
     },
     {
-      year: "2024",
-      title: isKorean ? "공공기관 도입 확대" : "Public Sector Expansion",
-      description: isKorean
-        ? "병원, 학교, 공공청사 등 50개 이상 기관 도입"
-        : "Deployed in 50+ hospitals, schools, and government buildings",
+      date: "2025. 05. 16",
+      title: "㈜큐솔루션즈 법인 설립",
+      description: "연구원 창업, 대표: 김도근 박사",
     },
     {
-      year: "2025",
-      title: isKorean ? "AI 자동 제어 시스템 출시" : "AI Auto Control Launch",
-      description: isKorean
-        ? "환기/공조 시스템 자동 연동 기능 추가"
-        : "Added automatic ventilation/HVAC integration",
+      date: "2025. 05",
+      title: "미국특허 등록",
+      description: "다공성 세라믹 유전체를 포함하는 플라즈마 발생장치 (12293899)",
+    },
+    {
+      date: "2024. 11",
+      title: "KISTEP 주관 사회문제해결R&D 우수성과 선정",
+      description: "의료시설 공공기관 내 호흡기 전파 감염을 줄이는 디지털 감염제어 플랫폼",
+    },
+    {
+      date: "2024. 11",
+      title: "특허등록 - 휴대용 플라즈마 발생장치",
+      description: "10-2726860 / 기술이전(통상실시)",
+    },
+    {
+      date: "2024. 11",
+      title: "특허출원",
+      description: "부유 감염원 농도에 따른 방역 공조 운영 방법 및 시스템, 방역 공조 장치 배치 추천 방법 및 시스템",
+    },
+    {
+      date: "2024. 10",
+      title: "KST 딥 테크 기획창업 챌린지 프로그램 선정",
+      description: "제1회 예비창업자 공모",
+    },
+    {
+      date: "2024. 10",
+      title: "특허출원",
+      description: "방역 공조 관리 방법 및 시스템",
+    },
+    {
+      date: "2024. 08",
+      title: "AI 방역공조 플랫폼 POC 완료",
+      description: "테스트베드 내 코로나19 확산억제 사례 확인",
+    },
+    {
+      date: "2024. 06",
+      title: "미국특허출원",
+      description: "공기매개 감염병 확산 방지용 방역공조 시스템",
+    },
+    {
+      date: "2024. 03",
+      title: "AI 방역공조 플랫폼 테스트베드 운영",
+      description: "예산군 노인요양원",
+    },
+    {
+      date: "2023. 11",
+      title: "특허등록 - 다공성 세라믹 유전체를 포함하는 플라즈마 발생장치",
+      description: "10-2599214 / 기술이전(통상실시)",
+    },
+    {
+      date: "2023. 09",
+      title: "특허등록 - 항균코팅 내구성이 향상된 항균필터",
+      description: "10-2575876 / 기술이전(통상실시)",
+    },
+    {
+      date: "2023. 06",
+      title: "AI 방역공조 플랫폼 테스트베드 운영",
+      description: "창원한마음병원 소아과 로비",
+    },
+    {
+      date: "2023. 06",
+      title: "특허출원",
+      description: "공기매개 감염병 확산 방지용 방역공조 시스템, 필터부 포집 병원체 비활성화 기능이 구비된 공기청정기",
+    },
+    {
+      date: "2023. 04",
+      title: "특허등록 - 다중이용시설 방역 공조 시스템 및 방법",
+      description: "10-2521537",
+    },
+    {
+      date: "2022. 12. 23",
+      title: "언론홍보 - YTN 사이언스",
+      description: "항균 기능성 구리 마스크",
+    },
+    {
+      date: "2022. 10",
+      title: "AI 방역공조 플랫폼 테스트베드 운영",
+      description: "경남도청 민원실",
+    },
+    {
+      date: "2022. 04",
+      title: "범부처 감염병안전강화기술개발사업 선정",
+      description: "의료현장 감염병 안전성 강화를 위한 디지털·환경데이터 기반 AI 방역공조 시스템 개발 (2022-2024, 주관기관)",
+    },
+    {
+      date: "2022. 04",
+      title: "미래감염병기술개발사업 선정",
+      description: "디지털트윈 기반 바이러스 정밀 탐지 및 지능형 방역 공조 시스템 개발 (과학기술정보통신부 한국연구재단, 2022-2024, 주관기관)",
+    },
+    {
+      date: "2022. 02. 07",
+      title: "언론홍보 - SBS 뉴스",
+      description: "공기중 코로나19 바이러스 잡는다. 플라즈마 공조기술 개발",
+    },
+    {
+      date: "2021. 05. 17",
+      title: "언론홍보 - MBC 뉴스",
+      description: "코로나19 바이러스 사멸... 기능성 마스크 개발",
+    },
+    {
+      date: "2020. 12. 10",
+      title: "언론홍보 - YTN 사이언스",
+      description: "공기 통해 전파하는 감염병 막는다",
+    },
+    {
+      date: "2019. 01",
+      title: "공공시설 감염병 제어소재 개발 사업 시작",
+      description: "2019-2023 / 한국재료연구원 일반사업 / 총괄책임",
     },
   ];
 
@@ -179,23 +274,29 @@ export default async function AboutPage({
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-10">
             {isKorean ? "연혁" : "Milestones"}
           </h2>
-          <div className="space-y-6">
-            {milestones.map((milestone, index) => (
-              <div key={index} className="flex gap-6 items-start">
-                <div className="flex-shrink-0 w-20 text-right">
-                  <span className="text-lg font-bold text-primary-600">
-                    {milestone.year}
-                  </span>
+          <div className="relative">
+            {/* Vertical line */}
+            <div className="absolute left-[120px] top-0 bottom-0 w-0.5 bg-gray-200 hidden md:block" />
+            <div className="space-y-4">
+              {milestones.map((milestone, index) => (
+                <div key={index} className="flex gap-4 md:gap-6 items-start group">
+                  <div className="flex-shrink-0 w-24 md:w-28 text-right">
+                    <span className="text-sm font-semibold text-primary-600">
+                      {milestone.date}
+                    </span>
+                  </div>
+                  <div className="flex-shrink-0 w-3 h-3 rounded-full bg-primary-500 mt-1.5 relative z-10 group-hover:scale-125 transition-transform" />
+                  <div className="flex-1 pb-4">
+                    <h3 className="font-semibold text-gray-900 text-sm md:text-base">
+                      {milestone.title}
+                    </h3>
+                    {milestone.description && (
+                      <p className="text-gray-500 text-xs md:text-sm mt-0.5">{milestone.description}</p>
+                    )}
+                  </div>
                 </div>
-                <div className="flex-shrink-0 w-4 h-4 rounded-full bg-primary-500 mt-1.5" />
-                <div>
-                  <h3 className="font-semibold text-gray-900">
-                    {milestone.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm">{milestone.description}</p>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
 
