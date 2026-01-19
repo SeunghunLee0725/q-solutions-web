@@ -58,8 +58,8 @@ export function StrengthsSection() {
                 {t(`items.${strength.key}.subtitle`)}
               </p>
 
-              {/* Description */}
-              <p className="text-sm text-gray-500 leading-relaxed mb-6">
+              {/* Description - Single line */}
+              <p className="text-xs text-gray-500 mb-6 line-clamp-1">
                 {t(`items.${strength.key}.description`)}
               </p>
 

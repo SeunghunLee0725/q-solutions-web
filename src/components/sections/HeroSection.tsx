@@ -100,41 +100,6 @@ export function HeroSection() {
                 className="absolute inset-0 w-full h-full"
               />
             </div>
-
-            {/* Floating cards */}
-            <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.5 }}
-              className="absolute -left-4 top-1/4 bg-white rounded-xl shadow-lg p-4 hidden lg:block"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                  <span className="text-xl">😊</span>
-                </div>
-                <div>
-                  <p className="text-sm font-medium text-gray-900">공기질 좋음</p>
-                  <p className="text-xs text-gray-500">CO2 450ppm</p>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: 0.6 }}
-              className="absolute -right-4 bottom-1/4 bg-white rounded-xl shadow-lg p-4 hidden lg:block"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-primary-100 flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-primary-600" />
-                </div>
-                <div>
-                  <p className="text-sm font-medium text-gray-900">감염 위험 낮음</p>
-                  <p className="text-xs text-gray-500">0.3% 이하</p>
-                </div>
-              </div>
-            </motion.div>
           </motion.div>
         </div>
       </div>
