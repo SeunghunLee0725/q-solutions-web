@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Play, Shield, Activity, Building2 } from "lucide-react";
+import { ArrowRight, Shield, Activity, Building2 } from "lucide-react";
 
 export function HeroSection() {
   const t = useTranslations("hero");
@@ -84,24 +84,21 @@ export function HeroSection() {
             </div>
           </motion.div>
 
-          {/* Right Content - Video Placeholder */}
+          {/* Right Content - YouTube Video */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative aspect-video rounded-2xl overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200 shadow-2xl">
-              {/* Video placeholder */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center">
-                <div className="w-20 h-20 rounded-full bg-white/90 shadow-lg flex items-center justify-center mb-4 cursor-pointer hover:scale-105 transition-transform">
-                  <Play className="w-8 h-8 text-primary-500 ml-1" />
-                </div>
-                <p className="text-gray-500 text-sm">{t("videoPlaceholder")}</p>
-              </div>
-
-              {/* Decorative overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent" />
+            <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
+              <iframe
+                src="https://www.youtube.com/embed/5TqjXXerEuE?start=82"
+                title="Q-Solutions 소개 영상"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
             </div>
 
             {/* Floating cards */}
