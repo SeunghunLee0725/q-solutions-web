@@ -93,7 +93,7 @@ export function HeroSection() {
           >
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
               <iframe
-                src="https://www.youtube.com/embed/5TqjXXerEuE?autoplay=1&mute=1"
+                src="https://www.youtube.com/embed/5TqjXXerEuE?autoplay=1&mute=1&loop=1&playlist=5TqjXXerEuE"
                 title="Q-Solutions 소개 영상"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
