@@ -30,11 +30,10 @@ import { cn } from "@/lib/utils";
 
 type CategoryFilter = "all" | "healthcare" | "education" | "public" | "lab";
 
-const caseKeys = ["hospital", "government", "nursing", "lab"] as const;
+const caseKeys = ["hospital", "nursing", "lab"] as const;
 
 const caseImages: Record<string, string> = {
   hospital: "/images/cases/hanmaeum-hospital.jpg",
-  government: "/images/cases/government.jpg",
   nursing: "/images/cases/nursing.jpg",
   lab: "/images/cases/university.jpg",
 };
