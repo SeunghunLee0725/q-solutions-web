@@ -25,6 +25,10 @@ export default async function AboutPage({
   const milestones = [
     {
       date: "2025. 12",
+      title: "2025년 예비창업패키지사업 대상 수상",
+    },
+    {
+      date: "2025. 12",
       title: "KST SEED 투자 유치",
       link: "https://www.etnews.com/20260107000098",
     },
