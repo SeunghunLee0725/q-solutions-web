@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
     // 이메일 내용 구성
     const mailOptions = {
       from: `Q-Solutions 웹사이트 <${process.env.GMAIL_USER}>`,
-      to: "cto@q-solutions.net",
+      to: ["cto@q-solutions.net", "ceo@q-solutions.net", "sh.yoon@q-solutions.net", "jy.bae@q-solutions.net"],
       replyTo: data.email,
       subject: `[문의] ${data.type} - ${data.name}`,
       html: `
@@ -76,7 +76,7 @@ export async function POST(request: NextRequest) {
 
     // 이메일 발송
     await transporter.sendMail(mailOptions);
-    console.log("Contact form email sent successfully to cto@q-solutions.net");
+    console.log("Contact form email sent successfully");
 
     return NextResponse.json({ success: true });
   } catch (error) {
