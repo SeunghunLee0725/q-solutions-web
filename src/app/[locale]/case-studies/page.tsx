@@ -228,8 +228,8 @@ export default function CaseStudiesPage() {
                       </div>
 
                       {/* Metrics Preview */}
-                      <div className="grid grid-cols-2 gap-3 mb-4">
-                        {[0, 1].map((idx) => {
+                      <div className={cn("grid gap-3 mb-4", key === "lab" ? "grid-cols-1" : "grid-cols-2")}>
+                        {(key === "lab" ? [0] : [0, 1]).map((idx) => {
                           const metricLabel = t(`page.details.${key}.metrics.${idx}.label`);
                           const metricValue = t(`page.details.${key}.metrics.${idx}.value`);
                           const metricIcon = t(`page.details.${key}.metrics.${idx}.icon`);
@@ -332,8 +332,8 @@ export default function CaseStudiesPage() {
                     {/* Modal Body */}
                     <div className="p-8">
                       {/* Metrics */}
-                      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-                        {[0, 1, 2, 3].map((idx) => {
+                      <div className={cn("grid gap-4 mb-10", selectedCase === "lab" ? "grid-cols-1 max-w-xs mx-auto" : "grid-cols-2 md:grid-cols-4")}>
+                        {(selectedCase === "lab" ? [0] : [0, 1, 2, 3]).map((idx) => {
                           const metricLabel = t(`page.details.${selectedCase}.metrics.${idx}.label`);
                           const metricValue = t(`page.details.${selectedCase}.metrics.${idx}.value`);
                           const metricIcon = t(`page.details.${selectedCase}.metrics.${idx}.icon`);
