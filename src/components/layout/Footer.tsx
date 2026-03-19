@@ -106,7 +106,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Mail className="w-4 h-4 mt-0.5 text-primary-400" />
                 <a
-                  href="mailto:cto@q-solutions.net"
+                  href="mailto:ceo@q-solutions.net"
                   className="text-sm hover:text-primary-400 transition-colors"
                 >
                   {t("contact.email")}

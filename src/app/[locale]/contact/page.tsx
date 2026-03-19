@@ -313,7 +313,7 @@ export default function ContactPage() {
                         {t("info.email.label")}
                       </p>
                       <a
-                        href="mailto:cto@q-solutions.net"
+                        href="mailto:ceo@q-solutions.net"
                         className="font-medium text-gray-900 hover:text-primary-600"
                       >
                         {t("info.email.value")}
