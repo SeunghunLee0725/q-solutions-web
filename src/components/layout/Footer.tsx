@@ -116,6 +116,7 @@ export function Footer() {
                 <MapPin className="w-4 h-4 mt-0.5 text-primary-400 flex-shrink-0" />
                 <div className="text-sm space-y-1">
                   <p>{t("contact.headquarters")}</p>
+                  <p>{t("contact.researchInstitute")}</p>
                   <p>{t("contact.branch")}</p>
                 </div>
               </li>
