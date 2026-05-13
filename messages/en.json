@@ -11,6 +11,7 @@
     "laboratory": "Laboratories",
     "caseStudies": "Case Studies",
     "about": "About Us",
+    "blog": "Blog",
     "contact": "Contact",
     "getDemo": "Free Assessment"
   },
@@ -469,6 +470,7 @@
       "solutions": "Solutions",
       "caseStudies": "Case Studies",
       "about": "About Us",
+      "blog": "Blog",
       "contact": "Contact"
     },
     "contact": {

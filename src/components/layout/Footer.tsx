@@ -83,6 +83,16 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <a
+                  href="https://m.blog.naver.com/q-solutions"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm hover:text-primary-400 transition-colors"
+                >
+                  {t("links.blog")}
+                </a>
+              </li>
+              <li>
                 <Link
                   href="/contact"
                   className="text-sm hover:text-primary-400 transition-colors"

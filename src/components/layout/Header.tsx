@@ -41,6 +41,11 @@ export function Header({ locale }: HeaderProps) {
     },
     { href: "/case-studies", label: t("caseStudies") },
     { href: "/about", label: t("about") },
+    {
+      href: "https://m.blog.naver.com/q-solutions",
+      label: t("blog"),
+      external: true,
+    },
     { href: "/contact", label: t("contact") },
   ];
 
@@ -88,6 +93,15 @@ export function Header({ locale }: HeaderProps) {
                     {link.label}
                     <ChevronDown className="w-4 h-4" />
                   </button>
+                ) : link.external ? (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 text-sm font-medium rounded-lg transition-colors text-gray-700 hover:text-primary-600 hover:bg-gray-50"
+                  >
+                    {link.label}
+                  </a>
                 ) : (
                   <Link
                     href={link.href}
@@ -208,6 +222,16 @@ export function Header({ locale }: HeaderProps) {
                         )}
                       </AnimatePresence>
                     </>
+                  ) : link.external ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 rounded-lg"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {link.label}
+                    </a>
                   ) : (
                     <Link
                       href={link.href}
