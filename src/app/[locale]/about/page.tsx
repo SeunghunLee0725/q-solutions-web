@@ -24,6 +24,18 @@ export default async function AboutPage({
 
   const milestones = [
     {
+      date: "2026. 05. 13",
+      title: "강소특구 기술이전사업 선정",
+    },
+    {
+      date: "2026. 01. 16",
+      title: "기업부설연구소 설립",
+    },
+    {
+      date: "2026. 01",
+      title: "기술보증기금 R-Tech Valley 선정",
+    },
+    {
       date: "2025. 12",
       title: "2025년 예비창업패키지사업 대상 수상",
     },
